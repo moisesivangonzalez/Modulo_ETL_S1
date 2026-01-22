@@ -1,0 +1,21 @@
+{
+  "name": "s1_api_transformacion",
+  "version": "1.0.0",
+  "description": "Transformación de declaraciones patrimoniales DeclaraNet a estándar PDN",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node src/test/validacionCompleta.js",
+    "test:comparar": "node src/test/compararConReferencia.js",
+    "validar": "node validarDeclaraciones.js",
+    "separar": "node separarDeclaraciones.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "express": "^5.1.0"
+  }
+}

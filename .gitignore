@@ -1,0 +1,32 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# Builds
+dist/
+build/
+coverage/
+
+# Env
+.env
+.env.*
+
+
+# --- LOGS Y ERRORES ---
+logs/
+*.log
+
+# --- SISTEMA OPERATIVO (Archivos basura) ---
+.DS_Store
+Thumbs.db
+
+
+# Ignorar TODO el contenido de entrada
+entrada/*
+!entrada/.gitkeep
+
+# Ignorar TODO el contenido de salida
+salida/*
+!salida/.gitkeep
