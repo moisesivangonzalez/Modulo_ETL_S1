@@ -11,9 +11,7 @@ Su función principal es la interoperabilidad: actúa como un puente tecnológic
 2. [Instalación](#instalación)
 3. [Configuración de Datos](#configuración-de-datos)
 4. [Ejecución del ETL](#ejecución-del-etl)
-5. [Ejecución de Pruebas](#ejecución-de-pruebas)
-6. [Estructura del Proyecto](#estructura-del-proyecto)
-7. [Notas de Seguridad](#notas-de-seguridad)
+
 
 ---
 
